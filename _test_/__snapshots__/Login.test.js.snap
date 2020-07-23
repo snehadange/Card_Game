@@ -1,0 +1,221 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login screen 1`] = `
+<View
+  accessibilityIgnoresInvertColors={true}
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 4,
+      "flexDirection": "column",
+      "height": "100%",
+      "justifyContent": "center",
+      "width": "100%",
+    }
+  }
+>
+  <Image
+    source={1}
+    style={
+      Array [
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        Object {
+          "height": "100%",
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+  />
+  <Text />
+  <Text />
+  <TextInput
+    allowFontScaling={true}
+    autoCapitalize="none"
+    disableFullscreenUI={true}
+    onChangeText={[Function]}
+    onEndEditing={[Function]}
+    placeholder="email"
+    placeholderTextColor="black"
+    rejectResponderTermination={true}
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": 25,
+        "borderWidth": 1,
+        "color": "black",
+        "fontSize": 16,
+        "fontWeight": "bold",
+        "height": 50,
+        "opacity": 0.4,
+        "paddingLeft": 60,
+        "top": 10,
+        "width": 250,
+      }
+    }
+    underlineColorAndroid="transparent"
+    value=""
+  />
+  <Text
+    style={
+      Object {
+        "color": "red",
+        "fontWeight": "bold",
+        "top": 10,
+      }
+    }
+  >
+    
+  </Text>
+  <TextInput
+    allowFontScaling={true}
+    autoCapitalize="none"
+    disableFullscreenUI={true}
+    onChangeText={[Function]}
+    onEndEditing={[Function]}
+    placeholder="password"
+    placeholderTextColor="black"
+    rejectResponderTermination={true}
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderRadius": 25,
+        "borderWidth": 1,
+        "color": "black",
+        "fontSize": 16,
+        "fontWeight": "bold",
+        "height": 50,
+        "opacity": 0.4,
+        "paddingLeft": 60,
+        "top": 10,
+        "width": 250,
+      }
+    }
+    underlineColorAndroid="transparent"
+    value=""
+  />
+  <Text
+    style={
+      Object {
+        "color": "red",
+        "fontWeight": "bold",
+        "top": 10,
+      }
+    }
+  >
+    
+  </Text>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#3399FF",
+        "borderRadius": 25,
+        "height": 50,
+        "top": 10,
+        "width": 250,
+      }
+    }
+  >
+    <RNGestureHandlerButton
+      collapsable={false}
+      onGestureEvent={[Function]}
+      onGestureHandlerEvent={[Function]}
+      onGestureHandlerStateChange={[Function]}
+      onHandlerStateChange={[Function]}
+      rippleColor={0}
+      style={
+        Array [
+          Object {
+            "overflow": "hidden",
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        accessible={true}
+        style={
+          Object {
+            "left": 90,
+            "opacity": 1,
+            "top": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "white",
+              "fontSize": 20,
+              "fontWeight": "bold",
+            }
+          }
+        >
+          Login
+        </Text>
+      </View>
+    </RNGestureHandlerButton>
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "top": 30,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Don't have an account?
+    </Text>
+    <RNGestureHandlerButton
+      collapsable={false}
+      onGestureEvent={[Function]}
+      onGestureHandlerEvent={[Function]}
+      onGestureHandlerStateChange={[Function]}
+      onHandlerStateChange={[Function]}
+      rippleColor={0}
+      style={
+        Array [
+          Object {
+            "overflow": "hidden",
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        accessible={true}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "blue",
+              "fontWeight": "bold",
+            }
+          }
+        >
+          Signup
+        </Text>
+      </View>
+    </RNGestureHandlerButton>
+  </View>
+</View>
+`;

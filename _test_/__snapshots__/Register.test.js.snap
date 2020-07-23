@@ -1,0 +1,255 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Register screen 1`] = `
+<View
+  accessibilityIgnoresInvertColors={true}
+  style={
+    Object {
+      "height": "100%",
+      "width": "100%",
+    }
+  }
+>
+  <Image
+    source={1}
+    style={
+      Array [
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        Object {
+          "height": "100%",
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+  />
+  <RCTScrollView>
+    <View>
+      <RCTSafeAreaView
+        emulateUnlessSupported={true}
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "justifyContent": "center",
+            "top": -100,
+          }
+        }
+      >
+        <Text />
+        <Text />
+        <Text />
+        <Text />
+        <TextInput
+          allowFontScaling={true}
+          autoCapitalize="none"
+          disableFullscreenUI={true}
+          onChangeText={[Function]}
+          onEndEditing={[Function]}
+          placeholder="Name"
+          placeholderTextColor="black"
+          rejectResponderTermination={true}
+          style={
+            Object {
+              "backgroundColor": "white",
+              "borderRadius": 25,
+              "borderWidth": 1,
+              "color": "black",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "height": 50,
+              "opacity": 0.4,
+              "paddingLeft": 70,
+              "width": 250,
+            }
+          }
+          underlineColorAndroid="transparent"
+          value=""
+        />
+        <Text
+          style={
+            Object {
+              "color": "red",
+              "fontWeight": "bold",
+              "top": -5,
+            }
+          }
+        >
+          
+        </Text>
+        <TextInput
+          allowFontScaling={true}
+          autoCapitalize="none"
+          disableFullscreenUI={true}
+          keyboardType="email-address"
+          onChangeText={[Function]}
+          onEndEditing={[Function]}
+          placeholder=" Email-id"
+          placeholderTextColor="black"
+          rejectResponderTermination={true}
+          style={
+            Object {
+              "backgroundColor": "white",
+              "borderRadius": 25,
+              "borderWidth": 1,
+              "color": "black",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "height": 50,
+              "opacity": 0.4,
+              "paddingLeft": 70,
+              "width": 250,
+            }
+          }
+          underlineColorAndroid="transparent"
+          value=""
+        />
+        <Text
+          style={
+            Object {
+              "color": "red",
+              "fontWeight": "bold",
+              "top": -4,
+            }
+          }
+        >
+          
+        </Text>
+        <TextInput
+          allowFontScaling={true}
+          autoCapitalize="none"
+          disableFullscreenUI={true}
+          keyboardType="numeric"
+          maxLength={10}
+          onChangeText={[Function]}
+          onEndEditing={[Function]}
+          placeholder=" mobile number"
+          placeholderTextColor="black"
+          rejectResponderTermination={true}
+          style={
+            Object {
+              "backgroundColor": "white",
+              "borderRadius": 25,
+              "borderWidth": 1,
+              "color": "black",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "height": 50,
+              "opacity": 0.4,
+              "paddingLeft": 70,
+              "width": 250,
+            }
+          }
+          underlineColorAndroid="transparent"
+          value=""
+        />
+        <Text
+          style={
+            Object {
+              "color": "red",
+              "fontWeight": "bold",
+              "top": -4,
+            }
+          }
+        >
+          
+        </Text>
+        <TextInput
+          allowFontScaling={true}
+          autoCapitalize="none"
+          disableFullscreenUI={true}
+          onChangeText={[Function]}
+          onEndEditing={[Function]}
+          placeholder=" confirm Password"
+          placeholderTextColor="black"
+          rejectResponderTermination={true}
+          style={
+            Object {
+              "backgroundColor": "white",
+              "borderRadius": 25,
+              "borderWidth": 1,
+              "color": "black",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "height": 50,
+              "opacity": 0.4,
+              "paddingLeft": 70,
+              "width": 250,
+            }
+          }
+          underlineColorAndroid="transparent"
+          value=""
+        />
+        <Text
+          style={
+            Object {
+              "color": "red",
+              "fontWeight": "bold",
+              "top": -3,
+            }
+          }
+        >
+          
+        </Text>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#3399FF",
+              "borderRadius": 25,
+              "height": 50,
+              "top": 7,
+              "width": 250,
+            }
+          }
+        >
+          <RNGestureHandlerButton
+            collapsable={false}
+            onGestureEvent={[Function]}
+            onGestureHandlerEvent={[Function]}
+            onGestureHandlerStateChange={[Function]}
+            onHandlerStateChange={[Function]}
+            rippleColor={0}
+            style={
+              Array [
+                Object {
+                  "overflow": "hidden",
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              accessible={true}
+              style={
+                Object {
+                  "left": 80,
+                  "opacity": 1,
+                  "top": 10,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "white",
+                    "fontSize": 20,
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Registration
+              </Text>
+            </View>
+          </RNGestureHandlerButton>
+        </View>
+      </RCTSafeAreaView>
+    </View>
+  </RCTScrollView>
+</View>
+`;
